@@ -26,7 +26,7 @@ public class DiagramRepository implements Serializable {
 	}
 
 	private Diagram createFirstDiagram() {
-		Diagram diagram = new Diagram("Diagram 1");
+		Diagram diagram = new Diagram("diagram #1");
 
 		diagram.addAftRecord(new AftRecord(63.04, 37.230));
 		diagram.addAftRecord(new AftRecord(68.21, 47.500));
@@ -46,7 +46,7 @@ public class DiagramRepository implements Serializable {
 	}
 
 	private Diagram createSecondDiagram() {
-		Diagram diagram = new Diagram("Diagram 2");
+		Diagram diagram = new Diagram("diagram #2");
 
 		diagram.addAftRecord(new AftRecord(70.87, 37.230));
 		diagram.addAftRecord(new AftRecord(88.88, 62.500));

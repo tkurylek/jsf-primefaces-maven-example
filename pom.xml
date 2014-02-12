@@ -20,6 +20,12 @@
 
 		<!-- Dependencies' versions -->
 		<sweetener.version>0.0.1-SNAPSHOT</sweetener.version>
+		<primefaces.version>3.5</primefaces.version>
+		<jsf.version>2.1.11</jsf.version>
+		<jstl.version>1.2</jstl.version>
+		<servlet-api.version>2.5</servlet-api.version>
+		<jsp-api.version>2.1</jsp-api.version>
+		<el-impl.version>2.2</el-impl.version>
 
 		<!-- Test dependencies' versions -->
 		<junit.version>4.10</junit.version>
@@ -49,44 +55,44 @@
 			<groupId>org.primefaces</groupId>
 			<artifactId>primefaces</artifactId>
 			<!-- Do not update to 4.0 version -->
-			<version>3.5</version>
+			<version>${primefaces.version}</version>
 		</dependency>
 
 		<!-- JSF 2 -->
 		<dependency>
 			<groupId>com.sun.faces</groupId>
 			<artifactId>jsf-api</artifactId>
-			<version>2.1.11</version>
+			<version>${jsf.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.sun.faces</groupId>
 			<artifactId>jsf-impl</artifactId>
-			<version>2.1.11</version>
+			<version>${jsf.version}</version>
 		</dependency>
 
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>jstl</artifactId>
-			<version>1.2</version>
+			<version>${jstl.version}</version>
 		</dependency>
 
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>servlet-api</artifactId>
-			<version>2.5</version>
+			<version>${servlet-api.version}</version>
 		</dependency>
 
 		<dependency>
 			<groupId>javax.servlet.jsp</groupId>
 			<artifactId>jsp-api</artifactId>
-			<version>2.1</version>
+			<version>${jsp-api.version}</version>
 		</dependency>
 
 		<!-- EL -->
 		<dependency>
 			<groupId>org.glassfish.web</groupId>
 			<artifactId>el-impl</artifactId>
-			<version>2.2</version>
+			<version>${el-impl.version}</version>
 		</dependency>
 
 		<!-- Utils -->

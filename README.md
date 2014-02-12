@@ -1,0 +1,2 @@
+jsf-primefaces-maven-example
+============================
